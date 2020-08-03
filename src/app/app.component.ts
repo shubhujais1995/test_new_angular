@@ -7,7 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Gateway-UI';
-  value = 'Clear me';
   start() {
     alert('test project');
   }
