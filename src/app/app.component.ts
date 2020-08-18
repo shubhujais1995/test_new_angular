@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PostService } from './shared/post.service';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +8,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Gateway-UI';
-  start() {
-    alert('test project');
-  }
 }
